@@ -1,1 +1,8 @@
- 
+ {
+  "services": [
+    "auth-service",
+    "payment-service",
+    "inventory-service",
+    "notification-service"
+  ]
+}
