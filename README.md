@@ -19,11 +19,11 @@ Skills Demonstrated
 Project Structure
 
 microservices-health-orchestrator/
-├── pycache/
-├── config/
-├── healer/
-├── monitor/
-├── orchestrator/
-├── predictor/
-├── health.py
-├── requirements.txt             
+├── __pycache__/              # Python bytecode cache
+├── config/                   # Configuration files (e.g., services.json)
+├── healer/                   # Healing logic and action definitions
+├── monitor/                  # Service monitoring logic
+├── orchestrator/             # Orchestration logic to coordinate all modules
+├── predictor/                # ML-based failure prediction models
+├── health.py                 # Main script connecting all modules
+├── requirements.txt          # Python dependencies           
