@@ -20,12 +20,11 @@ Design a container and microservices **Health Orchestrator** that:
 
 ```plaintext
 microservices-health-orchestrator/
-├── __pycache__/              # Python bytecode cache
-├── config/                   # Configuration files (e.g., services.json)
-├── healer/                   # Healing logic and action definitions
-├── monitor/                  # Service monitoring logic
-├── orchestrator/             # Orchestration logic to coordinate all modules
-├── predictor/                # ML-based failure prediction models
-├── health.py                 # Main script connecting all modules
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+├── __pycache__/             
+├── config/                   
+├── healer/                   
+├── monitor/                  
+├── orchestrator/             
+├── predictor/                
+├── health.py                 
+├── requirements.txt          
