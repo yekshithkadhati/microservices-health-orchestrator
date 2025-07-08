@@ -10,9 +10,9 @@ def load_services():
 if __name__ == "__main__":
     services = load_services()
     for service_name in services:
-        print(f"\n🔍 Checking: {service_name}")
+        print(f"\n Checking: {service_name}")
         metrics = get_service_metrics(service_name)
-        print(f"📊 Collected Metrics: {metrics}")
+        print(f" Collected Metrics: {metrics}")
         failure = predict_failure(
             cpu_usage=metrics["cpu_usage"],
             memory_usage=metrics["memory_usage"],
