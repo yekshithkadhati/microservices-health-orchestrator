@@ -20,10 +20,7 @@ Project Structure
 
 microservices-health-orchestrator/
 ├── health.py                 
-├── services/                
-   ├── auth-service.py
-   ├── payment-service.py
-   └── ...
+├── services/               
 ├── models/                   
 ├── actions/                 
 ├── requirements.txt         
