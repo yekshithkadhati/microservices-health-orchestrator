@@ -15,3 +15,16 @@ Skills Demonstrated
 - **AI/ML**: Logistic Regression-based failure prediction
 - **Automation**: Automated healing with scaling/restarts
 - **Critical Thinking**: Handles cascading failures and dependenci
+
+Project Structure
+
+microservices-health-orchestrator/
+├── health.py                 
+├── services/                
+│   ├── auth-service.py
+│   ├── payment-service.py
+│   └── ...
+├── models/                   
+├── actions/                 
+├── requirements.txt         
+└── README.md               
